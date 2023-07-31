@@ -1,0 +1,21 @@
+{
+  "name": "xtermterminal",
+  "version": "1.0.0",
+  "description": "YES",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "rebuild": "electron-rebuild"
+  },
+  "author": "Kanishk Shrivastava",
+  "license": "MIT",
+  "dependencies": {
+    "electron-tools": "^2.4.2",
+    "node-pty": "^1.0.0",
+    "xterm": "^5.2.1"
+  },
+  "devDependencies": {
+    "@electron/rebuild": "^3.2.13",
+    "electron": "^25.3.2"
+  }
+}
