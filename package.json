@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "rebuild": "electron-rebuild"
+    "rebuild-win": "./node_modules/.bin/electron-rebuild.cmd",
+    "rebuild": "./node_modules/.bin/electron-rebuild"
   },
   "author": "Kanishk Shrivastava",
   "license": "MIT",
